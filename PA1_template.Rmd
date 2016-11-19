@@ -46,7 +46,6 @@ hist(
     breaks = 15
 )
 ```
-![](figure/chunk1.png)
 
 3. Calculate and report the mean and median of the total number of steps taken per day  
 ```{r echo=TRUE}
@@ -68,7 +67,6 @@ plot(
     ylab = " the average number of steps "
     )
 ```
-![](figure/chunk2.png)
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?  
 ```{r echo=TRUE}
@@ -109,7 +107,6 @@ summary(steps_per_days2$steps)
 mean(steps_per_days2$steps)
 median(steps_per_days2$steps)
 ```
-![](figure/chunk3.png)
 
 #### Do these values differ from the estimates from the first part of the assignment?
 Those values differ, but just small.
@@ -150,4 +147,3 @@ xyplot(
         ylab = "Number of steps"
 )
 ```
-![](figure/chunk4.png)
